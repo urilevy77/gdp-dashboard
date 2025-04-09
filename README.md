@@ -1,19 +1,42 @@
-# :earth_americas: GDP dashboard template
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-A simple Streamlit app showing the GDP of different countries in the world.
+# Virtual Environment
+venv/
+ENV/
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
 
-### How to run it on your own machine
+# Streamlit
+.streamlit/
 
-1. Install the requirements
+# Data files that are too large (uncomment if needed)
+# *.csv
+# *.xlsx
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+# OS specific
+.DS_Store
+Thumbs.db
